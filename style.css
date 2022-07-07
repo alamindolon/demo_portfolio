@@ -8,9 +8,10 @@ h1{
 .name_color{
     color: orange;
 }
-section{
+.flexable_container{
     display: flex;
     padding-left: 5%;
+    padding: 50px;
 }
 .half-width{
     width: 50%;
@@ -35,4 +36,27 @@ section{
     background-image:url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.exprience_item{
+    width: 40%;
+   margin-left: 3%;
+   margin-right: 5%;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+ 
+}
+.exprience_area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#full_stack{
+    border-left: 7px solid tomato;
+}
+#baby_web{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
 }
